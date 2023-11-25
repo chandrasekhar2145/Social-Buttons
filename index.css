@@ -1,0 +1,96 @@
+/* Write your code here. */
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/social-buttons-bg.png');
+  height: 100vh;
+  color: #ffffff;
+  font-family: 'Bree Serif';
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  font-size: 35px;
+}
+h1 {
+  margin-bottom: 35px;
+}
+.container-2 {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+  width: 25%;
+  padding: 10px;
+}
+
+.like {
+  color: #ffffff;
+  background-color: #eab308;
+  border-radius: 10px;
+  height: 40px;
+  width: 80px;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.share {
+  color: #323f4b;
+  background-color: #ffffff;
+  border-radius: 10px;
+  height: 40px;
+  width: 80px;
+}
+
+.comment {
+  color: #ffffff;
+  background-color: #1d4ed8;
+  border-radius: 10px;
+  height: 40px;
+  width: 80px;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    width: 70%;
+    min-width: 1200px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .container {
+    width: 85%;
+    min-width: 1200px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .container {
+    width: 100%;
+    min-width: 1200px;
+  }
+  h1 {
+    font-size: 40px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .container-2 {
+    width: 90%;
+    height: 30vh;
+    min-width: 576px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  h1 {
+    font-size: 20px;
+  }
+}
